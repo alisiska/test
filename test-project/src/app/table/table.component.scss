@@ -1,0 +1,61 @@
+.table {
+  width: 850px;
+  font-size: 14px;
+}
+
+.table td {
+  text-align: center;
+}
+.table th {
+  text-align: center;
+}
+.firstColumn {
+  text-align: left !important;
+  width: 30%;
+}
+.header {
+  background-color: #f7f8f9;
+  text-align: left !important;
+}
+.border-top-0 {
+  border-top: 1px solid Transparent !important;
+  border-left: 1px solid Transparent !important;
+}
+.border-bottom-0 {
+  border-left: 1px solid Transparent !important;
+  border-bottom: 1px solid Transparent !important;
+}
+.border-speacial {
+  border-top: 3px solid #0b7bff;
+}
+.btn {
+  font-size: 14px;
+}
+
+#cloud1 {
+  position: absolute;
+  margin-left: -40px;
+  margin-bottom: 200px;
+}
+#cloud2 {
+  position: absolute;
+  margin-left: -40px;
+}
+#cloud3 {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -55px;
+
+  transform: scaleX(-1);
+}
+.corner {
+  border-right: 1px solid Transparent !important;
+  border-bottom: 1px solid Transparent !important;
+}
+.table-bordered {
+  border: 1px solid Transparent !important;
+}
+.cloud{
+  position:relative;
+  top: -50px;
+}

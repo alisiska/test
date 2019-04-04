@@ -1,0 +1,57 @@
+.card {
+  width: 455px;
+  height: 173px;
+  margin-top: 30px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  margin-top: 42px;
+  margin-left: 29px;
+}
+.card-title {
+  margin-top: 46px;
+  font-size: 16px;
+}
+.card-text {
+  font-size: 14px;
+}
+
+.card:hover {
+  transform: scale(1.025);
+  box-shadow: 0 0 12px #a0cbfb;
+  .img-fluid{
+    animation: wiggle 0.5s; 
+  }
+}
+span {
+  content: "\2192";
+}
+.text-primary {
+  cursor: pointer;
+}
+
+
+
+
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(-3deg);
+  }
+  20% {
+    transform: rotate(20deg);
+  }
+  40% {
+    transform: rotate(-15deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  90% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
